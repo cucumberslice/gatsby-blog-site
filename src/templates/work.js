@@ -15,10 +15,12 @@ export default ({ data }) => (
         <h1 className="sheet__title">{data.datoCmsWork.title}</h1>
         <p>
           {data.datoCmsWork.meta.createdAt} -{' '}
-          {
-            data.datoCmsWork.descriptionNode.childMarkdownRemark.fields
-              .readingTime.text
-          }
+          <span style={{ color: '#bbb' }}>
+            {
+              data.datoCmsWork.descriptionNode.childMarkdownRemark.fields
+                .readingTime.text
+            }
+          </span>
         </p>
         <br />
 
