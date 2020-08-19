@@ -11,6 +11,12 @@ module.exports = {
     // `gatsby-transformer-remark`,
     `gatsby-remark-reading-time`,
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        //trackingId: `ADD YOUR TRACKING ID HERE`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
