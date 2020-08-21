@@ -42,9 +42,9 @@ export default ({ data }) => (
             __html: data.datoCmsWork.descriptionNode.childMarkdownRemark.html,
           }}
         />
-        <div className="sheet__gallery">
+        {/* <div className="sheet__gallery">
           <Img fluid={data.datoCmsWork.coverImage.fluid} />
-        </div>
+        </div> */}
       </div>
     </article>
   </Layout>
