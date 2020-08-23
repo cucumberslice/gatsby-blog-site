@@ -14,7 +14,7 @@ You can [sign up for a free account](https://dashboard.datocms.com/signup) and t
 
 ## Repo usage
 
-First, install the dependencies of this project:
+First, Install the dependencies of this project:
 
 ```
 yarn install
