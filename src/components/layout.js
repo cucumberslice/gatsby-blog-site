@@ -91,6 +91,7 @@ const TemplateWrapper = ({ children }) => {
               <div className="mobile-header">
                 <div className="mobile-header__menu">
                   <button
+                    name="hamburger"
                     onClick={(e) => {
                       e.preventDefault();
                       setShowMenu(!showMenu);
@@ -98,7 +99,8 @@ const TemplateWrapper = ({ children }) => {
                   />
                 </div>
                 <div className="mobile-header__logo">
-                  <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
+                  {/* <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link> */}
+                  BLACK LIVES MATTER
                 </div>
               </div>
             </div>
